@@ -1,0 +1,14 @@
+h1, h4 {
+color: teal;
+text-align: center;
+font-family: arial, sans-serif;
+font-weight: bold;
+}
+h5 {
+color: green;
+text-align: center;
+}
+th, td {
+  background-color: lightgrey;
+  color: blue;
+}
