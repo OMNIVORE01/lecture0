@@ -1,0 +1,15 @@
+$color: grey;
+$text-align: left;
+
+ol {
+  color: $color;
+font-size: 18px;
+font-weight: bold;
+text-align: $text-align;
+li{
+  color: green;
+}
+}
+ul{
+  color: blue;
+}
