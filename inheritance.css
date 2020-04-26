@@ -1,0 +1,23 @@
+.bottommessage, .middlemessage, .topmessage {
+  font-family: arial;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.topmessage {
+  background-color: teal;
+}
+
+.middlemessage {
+  background-color: grey;
+}
+
+.bottommessage {
+  background-color: lightgrey;
+}
+
+/*# sourceMappingURL=inheritance.css.map */

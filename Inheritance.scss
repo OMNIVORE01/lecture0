@@ -1,0 +1,23 @@
+%message {
+font-family: arial;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+border: 1px solid black;
+padding: 20px;
+margin:20px;
+}
+
+.topmessage {
+  @extend %message;
+  background-color: teal;
+}
+ .middlemessage {
+   @extend %message;
+   background-color: grey;
+ }
+
+ .bottommessage{
+   @extend %message;
+   background-color: lightgrey;
+ }
