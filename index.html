@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project0</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        @media (min-width: 500px){
+          h1::before {
+            content: "Welcome to my page";
+          }
+        }
+        @media (max-width: 499px){
+          h1::before {
+            content:"Welcome";
+          }
+        }
+        #Hello {
+          font-size: 36px;
+        }
+        #World {
+          font-size: 24px;
+        }
+        #Wide {
+          font-size: 12px;
+        }
+        .name{
+          font-weight: bold;
+          color: teal;
+        }
+        .col-sm{
+          font-weight: bold;
+          color: blue;
+        }
+        table {
+          text-align: center;
+          width: 50%;
+          margin: 60px;
+          border: 2px solid black;
+        }
+        td, th {
+          border: 1px solid black;
+          padding: 5px;
+        }
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <a class="navbar-brand">Jesse Leiva</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index1.html">Movie</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index2.html">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index3.html">Contact Me</a>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">!</h1>
+    <p class="lead">My name is Jesse Leiva, I'm excited to learn about Web Development and I'm grateful that you have created this online course. I'm really looking foward to learning about Python and API functionality in the following lectures.</p>
+  </div>
+</div>
+</div>
+        <table>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Class</th>
+            <th>State</th>
+          </tr>
+          <tr>
+            <td>Jesse</td>
+            <td>Leiva</td>
+            <td>Web Programming with Python and JavaScript</td>
+            <td>California</td>
+          </tr>
+        </table>
+        <div id="Hello">
+          <p>This is an example of using ID with the word <span class="name"> Hello </span> as ID 1<p/>
+        </div>
+        <div id="World">
+          <p>This is an example of using ID with the word <span class="name"> World </span> as ID 2</p>
+        </div>
+          <div id="Wide">
+          <p>This is an example of using ID with the word <span class="name"> Wide </span> as ID 3</p>
+        </div>
+    <div class="container">
+<div class="row">
+<div class="col-sm">
+Bootstrap Column 1
+</div>
+<div class="col-sm">
+Bootstrap Column 2
+</div>
+<div class="col-sm">
+Bootstrap Column 3
+</div>
+</div>
+</div>
+    </body>
+</html>
