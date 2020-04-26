@@ -1,0 +1,15 @@
+ol {
+  color: grey;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+ol li {
+  color: green;
+}
+
+ul {
+  color: blue;
+}
+
+/*# sourceMappingURL=sass.css.map */
